@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tektur:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&family=Tektur:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/currency.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Currency Convertor</h1>
+        <hr>
+       
+        <!-- amount div -->
+       
+        <div class="h3">
+            <h3>From</h3>
+            <h3>TO</h3>
+        </div>
+        <div class="form">
+            <div class="from">
+                <img src="https://flagsapi.com/IN/shiny/64.png" class="image">
+                <select name="from" id="from">
+                </select>
+            </div>
+           <img src="./images/exchange.png" alt="Exchange icon" id="exchange">
+           <div class="to">
+                <img src="https://flagsapi.com/BE/shiny/64.png" class="image">
+               <select name="to" id="to">
+               </select>
+           </div>
+           
+        </div>
+        <div id="input-div">
+            <input type="text"  placeholder="Enter Amount" id="input">
+        </div>
+        <div class="footer">
+            <p></p>   
+        </div>
+        <div class="button">
+            <button class="button-64" role="button"><span class="text">Exchange</span></button>
+        </div>
+       
+    </div>
+    <script src="./codes.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
