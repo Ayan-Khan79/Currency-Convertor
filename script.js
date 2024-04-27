@@ -1,5 +1,5 @@
 // Some defined varibles and link to api
-let base_url ="https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/";
+let base_url ="https://api.exchangerate-api.com/v4/latest/currencies/";
 let dropDown = document.querySelectorAll("select");
 const button = document.querySelector(".button-64");
 const fromCurr = document.querySelector(" .from select");
